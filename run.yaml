@@ -1,0 +1,62 @@
+###########################################################################
+#    > File Name: run.conf
+#    > Author: zhangminghua
+#    > Mail: zhangmh1993@163.com
+#    > Created Time: 2016.8.30 10:21:06
+###########################################################################
+
+
+############# 分隔符定义
+sep_w : ' '
+sep_p : '|||'
+sep_1 : 1
+sep_2 : 2
+sep_3 : 3
+sep_4 : 4
+sep_5 : 5
+
+
+sen_num : 6000000
+sen_max_len : 36
+sen_min_len : 6
+sen_word_duplicate : 1.5
+sen_word_span : 5
+sen_start : '<'
+sen_end : '>'
+
+
+n_word_to_key : 4
+key_num : [3,4,5,6,7,8,9,10,11,12,13,14,15,16,16,16,16,16]
+key_num_floor : 4
+key_overlap_floor : [3,3,3,3,3,4,5,6,7,7,8,8,9,9,10,10,11,11,12]
+
+
+pair_sim_ceil : 0.98
+pair_sim_floor : 0.4
+pair_sim_pend : 0.6
+
+
+max_phrase_len : 6
+phrase_freq_floor : 2
+phrase_overlap_floor : 0.2
+phrase_fluent_floor : -8
+
+
+context_window : 1
+context_left_weight : 0.5
+context_right_weight : 0.5
+context_left_sim_floor : 0.6
+context_right_sim_floor : 0.6
+context_sim_floor : 0.6
+
+
+LSH_bit : 32
+LSH_dim : 10000
+
+
+digit : '0-9'
+alphabet : 'a-zA-Z'
+punctuation : '！!`·~～？?×（）()<>《》：:；;。.，,%——＜—“”【】'
+tone : '们|这|着|就|另|被|勒|阿|吖|呀|丫|哎|是|啊|吗|了|吧|哦|啦|嘛|哈|喵|该|哪'
+
+

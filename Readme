@@ -1,0 +1,37 @@
+##########################################################################
+#    > File Name: Readme
+#    > Author: zhangminghua
+#    > Mail: zhangmh1993@163.com
+#    > Created Time: 2016.8.30 10:21:06
+##########################################################################
+
+run.sh：
+	运行脚本，调用各模块的处理程序；
+
+run.conf：
+	模块配置文件，控制各模块的开关，联结模块之间的输入输出；
+
+run.yaml：
+	参数配置文件，通过yaml统一管理各模块的超参数；
+
+ansj目录：
+	user_dic_2_0.sh获取用户自定义词典，ansj_seg_2.sh调用java分词程序，lib目录存放ansj分词jar包，library目录存放词典文件；
+
+data目录：
+	存放单语语料，以及各阶段的数据输出；
+
+lib目录：
+	资源文件目录，目前存有语言模型，停止词表和哈工大同义词林扩展版；
+
+log目录：
+	存放各处理步骤的日志文件；
+
+python目录：
+    项目定制python运行环境
+
+script目录：
+	存放各处理步骤的python脚本文件；
+
+StanfordParser目录：
+	stanford_parser_6.sh调用java句法分析程序，lib目录存放stanford parser的jar包和模型jar包。
+
